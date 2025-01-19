@@ -19,7 +19,7 @@
 **Definition:**  
 The discipline of designing and building systems for collecting, storing, and analyzing data at scale.
 
-### Core Concepts:
+#### Core Concepts:
 - Data pipelines.
 - ETL (Extract, Transform, Load) processes.
 - Data warehouses and data lakes.
@@ -27,60 +27,60 @@ The discipline of designing and building systems for collecting, storing, and an
 
 ---
 
-## 3. Importance of Data Engineering
+### 3. Importance of Data Engineering
 - Enabling analytics and machine learning through robust infrastructure.
 - Streamlining access to clean, consistent data.
 
-### Real-World Applications:
+#### Real-World Applications:
 - Powering recommendation systems.
 - Supporting real-time analytics in e-commerce and finance.
 
 ---
 
-## 4. Tools for Data Engineering and Their Functions
+### 4. Tools for Data Engineering and Their Functions
 
-### Data Storage:
+#### Data Storage:
 - Relational databases (e.g., PostgreSQL, MySQL).
 - Cloud storage solutions (e.g., AWS S3, Google Cloud Storage).
 
-### Data Processing:
+#### Data Processing:
 - Batch processing tools (e.g., Apache Spark, Hadoop).
 - Streaming tools (e.g., Kafka, Flink).
 
-### Workflow Orchestration:
+#### Workflow Orchestration:
 - Airflow, Prefect.
 
-### ETL Tools:
+#### ETL Tools:
 - Informatica, Talend, dbt (data build tool).
 
-### Programming Languages:
+#### Programming Languages:
 - Python, Scala, SQL.
 
 ---
 
-## 5. Practical Case Study
+### 5. Practical Case Study
 ### Design and Build a Simple Data Pipeline:
 **Example:**  
 Ingest data from an API, store it in a database, and transform it for reporting.
 
 ---
 
-## 6. Developing a Data Engineering Mindset
+### 6. Developing a Data Engineering Mindset
 ### Key Practices:
 - Prioritizing scalability and maintainability.
 - Building with automation in mind.
 - Documenting and monitoring systems effectively.
 
-### Critical Thinking:
+#### Critical Thinking:
 - Anticipating edge cases.
 - Debugging complex pipelines.
 
 ---
 
-## 7. Recap and Q&A
+### 7. Recap and Q&A
 - Summary of key takeaways.
 - Open discussion to address questions and explore additional use cases.
 nes.
-7. Recap and Q&A
+- Recap and Q&A
 Summary of key takeaways.
 Open discussion to address questions and explore additional use cases.
