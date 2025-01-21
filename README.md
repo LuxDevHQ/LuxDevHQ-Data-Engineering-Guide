@@ -1,4 +1,4 @@
-## **LuxDevHQData Engineering Course Outline**
+## **LuxDevHQ Data Engineering Course Outline**
 
 This comprehensive course spans **4 months** (16 weeks) and equips learners with expertise in Python, SQL, Azure, AWS, Apache Airflow, Kafka, Spark, and more.
 - **Learning Days**: Monday to Thursday (theory and practice).
