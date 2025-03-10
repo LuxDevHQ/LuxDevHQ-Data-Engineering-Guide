@@ -1,11 +1,10 @@
 ### **1. Bash & Python Operators**
 
-```python
-def function_name():
-  pass
-```
-
 - `BashOperator` - Executes a bash command.
+  Example:
+  ```
+  source envname/bin/activate
+  ```
 - `PythonOperator` - Runs a Python function.
 - `BranchPythonOperator` - Executes one of multiple Python functions based on logic.
 
