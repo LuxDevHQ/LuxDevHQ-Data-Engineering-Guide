@@ -2,9 +2,11 @@
 
 - `BashOperator` - Executes a bash command.
   Example:
-  ```
+  
+  ```python 
   source envname/bin/activate
   ```
+  
 - `PythonOperator` - Runs a Python function.
 - `BranchPythonOperator` - Executes one of multiple Python functions based on logic.
 
