@@ -1,21 +1,3 @@
-
-Attachment LuxDevHQ Introduction To Apache Kafka For Data Engineering Notes.docx added.Conversation opened. 1 unread message.
-
-Skip to content
-Using Gmail with screen readers
-
-1 of 4,479
-markdown
-Inbox
-
-Peter Gatitu Mwangi
-Attachments
-6:11 PM (1 minute ago)
-to me
-
-
- One attachment
-  •  Scanned by Gmail
 ### **Apache Kafka Cheat Sheet**
 
 #### **Introduction**
@@ -225,5 +207,3 @@ kafkacat -C -b localhost:9092 -t logs -p 0 -o -5 -e
 For more details, check out:
 - [Apache Kafka Documentation](https://kafka.apache.org/documentation/)
 - [Redpanda Kafka Guide](https://redpanda.com/guides/kafka-tutorial)
-markdown.md
-Displaying markdown.md. 
