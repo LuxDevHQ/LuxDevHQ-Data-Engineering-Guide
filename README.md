@@ -119,7 +119,9 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 - **Friday**:  
   - **Peer Project**: Build a real-time Kafka pipeline for transactional data.  
 - **Saturday (Lab)**:  
-  - **Mini Project**: Create a pipeline to stream e-commerce data with Kafka.  
+  - **Mini Project**: Create a pipeline to stream e-commerce data with Kafka.
+    
+[Apache Kafka 101](./Apache%20Kafka%20101%3A%20Apache%20Kafka%20for%20Data%20Engineering%20Guide.md)
 
 ---
 
