@@ -109,7 +109,8 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 #### **Week 7: Real-Time Data Processing with Kafka**
 - **Monday**:  
-  - Theory: Introduction to Apache Kafka for real-time data streaming.  
+  - Theory: - [Introduction to Apache Kafka for real-time data streaming](/introduction-to-Kafka.md)
+  
 - **Tuesday**:  
   - Lab: Set up a Kafka producer and consumer.  
 - **Wednesday**:  
@@ -122,6 +123,10 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
   - **Mini Project**: Create a pipeline to stream e-commerce data with Kafka.
     
 [Apache Kafka 101](./Apache%20Kafka%20101%3A%20Apache%20Kafka%20for%20Data%20Engineering%20Guide.md)
+
+[Apache Kafka 102](/Apache%20Kafka%20102%3A%20Apache%20Kafka%20for%20Data%20Engineering%20Guide.md)
+
+
 
 ---
 
