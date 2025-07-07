@@ -24,7 +24,7 @@
                            │
                     ┌─────────────┐
                     │ Metadata DB │
-                    │  (PostgreSQL)   │
+                    │ (PostgreSQL)│
                     └─────────────┘
 ```
 
