@@ -111,7 +111,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 - **Monday**:  
   - Theory: - [Introduction to Apache Kafka for real-time data streaming](/introduction-to-Kafka.md)
 - **Tuesday**:  
-  - Lab: Set up a Kafka producer and consumer.  
+  - Lab: [Set up a Kafka producer and consumer.](/Tuesday-Kafka-Lab.md)
 - **Wednesday**:  
   - Theory: Kafka topics, partitions, and message brokers.  
 - **Thursday**:  
