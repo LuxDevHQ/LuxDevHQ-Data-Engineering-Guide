@@ -19,7 +19,7 @@ You'll pull **real data** from public sources (see below), clean and model it, a
   - CPI & inflation datasets  
 - [World Bank Open Data – Kenya](https://data.worldbank.org/country/kenya)
 - [FAOSTAT – Food & Agriculture Data](https://www.fao.org/faostat/)
-- [Kenya Open Data](https://opendata.go.ke/)  
+- [Kenya Open Data](https://kenya.opendataforafrica.org/)  
   - County-level data on market prices, commodities, population, etc.
 
 ---
