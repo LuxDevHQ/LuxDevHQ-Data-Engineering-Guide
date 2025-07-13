@@ -45,9 +45,9 @@ You'll pull **real data** from public sources (see below), clean and model it, a
   - Price changes over time
   - Inflation heatmaps by county
   - Product comparison across regions
-- Tools: **Metabase, Superset, Power BI**, or **Google Data Studio**
+- Tool: **Grafana or Power BI**
 
-#### **🔒 Data Governance**
+#### **Data Governance**
 - Add metadata to tag data sources, update frequency, and validation steps.
 - Track data lineage through Airflow logs or a simple metadata table.
 
