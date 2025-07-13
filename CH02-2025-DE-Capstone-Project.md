@@ -7,7 +7,7 @@
 ---
 #### **🧩 Project Brief**
 
-Your team has been contracted by a fintech startup or government think tank to build a **data platform** that tracks food prices across Kenyan counties, detects inflation patterns, and generates insights for consumers, farmers, and policymakers.
+Your team has been contracted by a government think tank to build a **data platform** that tracks food prices across Kenyan counties, detects inflation patterns, and generates insights for consumers, farmers, and policymakers.
 
 You'll pull **real data** from public sources (see below), clean and model it, and build both **batch and near-real-time** pipelines for analysis and visualization.
 
