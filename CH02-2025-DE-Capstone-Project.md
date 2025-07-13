@@ -2,7 +2,7 @@
 
 **Domain**: Public Data || Economics || Agriculture.
 
-**Data Availability**: ✅ Easy – Publicly available from official government sources  
+**Data Availability**: Easy – Publicly available from official government sources  
 
 ---
 #### **🧩 Project Brief**
