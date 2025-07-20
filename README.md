@@ -8,32 +8,10 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 ---
 ## Table of Contents
 
-![Uncle Bob surrounded with computers](assets/Robert_C._Martin_surrounded_by_computers.jpg)
+1. [Week 1](#Onboarding-and-Environment-Setup)
 
-1. [Month 1: Foundations of Data Engineering](#Month-1:-Foundations-of-Data-Engineering)
+   - [Use intention revealing name](#Onboarding-and-Environment-Setup)
 
-   - [Use intention revealing name](#Use-intention-revealing-name)
-   - [Meaningful Distinctions](#Meaningful-Distinctions)
-   - [Avoid Disinformation](#Avoid-Disinformation)
-   - [Pronounceable Names](#Pronounceable-names)
-   - [Search-able Names](#Searchable-Names)
-   - [Don't be cute](#Don't-be-cute)
-   - [Avoid Encodings](#Avoid-Encodings)
-     - [Hungarian Notation](#Hungarian-Notation)
-     - [Member Prefixes](#Member-Prefixes)
-     - [Interfaces & Implementations](#Interfaces-&-Implementations)
-   - [Gratuitous Context](#Gratuitous-Context)
-   - [Avoid Mental Mapping](#Avoid-Mental-Mapping)
-   - [Class Names](#Class-Names)
-     - [Types of Objects](#Types-of-Objects)
-     - [Simple Superclass Name]()
-     - [Qualified Subclass Name]()
-   - [Method Names]()
-   - [Pick One Word per Concept]()
-   - [Don’t Pun]()
-   - [Use Solution Domain Names]()
-   - [Use Problem Domain Names]()
-   - [Add Meaningful Context]()
 
    ---
 
