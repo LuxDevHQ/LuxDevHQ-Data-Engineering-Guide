@@ -29,7 +29,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 - **Monday**:  
   - Core SQL concepts (`SELECT`, `WHERE`, `JOIN`, `GROUP BY`).  
 - **Tuesday**:  
-  - Advanced SQL techniques: recursive queries, window functions, and CTEs.  
+  - Advanced SQL techniques: recursive queries, window functions, Stored Procedures, and CTEs.  
 - **Wednesday**:  
   - Query optimization and execution plans.  
 - **Thursday**:  
