@@ -10,7 +10,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 1. [Week 16](#week-16-capstone-project-presentation)
 
-   - [Monday to Thursday](#Final-Presentation-Preparation)
+   - [Monday to Thursday](#Monday-to-Thursday-Final-Presentation-Preparation-Polish-test-and-document-the-final-project)
 
 
    ---
@@ -258,8 +258,8 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 ---
 
 #### Week 16: Capstone Project Presentation
-- **Monday to Thursday**:  
-  - **Final Presentation Preparation**:  
+- Monday to Thursday:  
+  - Final Presentation Preparation:  
     - Polish, test, and document the final project.  
 - **Friday**:  
   - **Peer Review**: Present final projects to peers and receive feedback.  
