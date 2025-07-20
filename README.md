@@ -29,7 +29,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 - **Monday**:  
   - Core SQL concepts (`SELECT`, `WHERE`, `JOIN`, `GROUP BY`).  
 - **Tuesday**:  
-  - Advanced SQL techniques: recursive queries, window functions, Stored Procedures, and CTEs.  
+  - Advanced SQL techniques: recursive queries, window functions, Views, Stored Procedures, Subque ries and CTEs.  
 - **Wednesday**:  
   - Query optimization and execution plans.  
 - **Thursday**:  
@@ -169,7 +169,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 - **Tuesday**:  
   - Lab: Set up Spark and PySpark for data analysis.  
 - **Wednesday**:  
-  - Theory: Spark RDDs, DataFrames, and SQL.  
+  - Theory: Spark RDDs, DataFrames, Performance Optimization and SQL.  
 - **Thursday**:  
   - Lab: Analyze large datasets using Spark SQL.  
 - **Friday**:  
