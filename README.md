@@ -10,7 +10,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 1. [Week 16](#week-16-capstone-project-presentation)
 
-   - [Monday to Thursday](#Monday-to-Thursday)
+   - [Monday to Thursday](#monday-to-thursday)
 
 
    ---
