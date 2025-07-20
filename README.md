@@ -8,9 +8,9 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 ---
 ## Table of Contents
 
-1. [Week 1](#Onboarding-and-Environment-Setup)
+1. [Week 16](###Capstone-Project-Presentation)
 
-   - [Use intention revealing name](#Onboarding-and-Environment-Setup)
+   - [Monday to Thursday](#Final-Presentation-Preparation)
 
 
    ---
@@ -257,7 +257,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 ---
 
-#### **Week 16: Capstone Project Presentation**
+#### Week 16: Capstone Project Presentation
 - **Monday to Thursday**:  
   - **Final Presentation Preparation**:  
     - Polish, test, and document the final project.  
