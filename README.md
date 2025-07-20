@@ -8,16 +8,30 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 ---
 ## Table of Contents
 
-1. [Week 16](#week-16-capstone-project-presentation)
+1. [Week 1](#week-1-Onboarding-and-Environment-Setup)
+2. [Week 2](#week-2-SQL-Essentials-for-Data-Engineering)
+3. [Week 3](#week-3-Introduction-to-Data-Pipelines)
+4. [Week 4](#week-4-Introduction-to-Apache-Airflow)
+5. [Week 5](#week-5-Data-Warehousing-and-Data-Lakes)
+6. [Week 6](#week-6-Data-Governance-and-Security)
+7. [Week 7](#week-7-Real-Time-Data-Processing-with-Kafka)
+8. [Week 8](#week-8-Batch-vs-Stream-Processing)
+9. [Week 9](#week-9-Machine-Learning-Integration-in-Data-Pipelines)
+10. [Week 10](#week-10-Spark-and-PySpark-for-Big-Data)
+11. [Week 11](#week-11-Advanced-Apache-Airflow-Techniques)
+12. [Week 12](#week-12-Data-Lakes-and-Delta-Lake)
+13. [Week 13](#week-13-Batch-Data-Pipeline-Development)
+14. [Week 14](#week-14-Real-Time-Data-Pipeline-Development)
+15. [Week 15](#week-15-Final-Project-Integration)
+16. [Week 16](#week-16-capstone-project-presentation)
 
-   - [Monday to Thursday](#monday-to-thursday)
 
 
    ---
 
 ### **Month 1: Foundations of Data Engineering**
 
-#### **Week 1: Onboarding and Environment Setup**
+#### Week 1: Onboarding and Environment Setup
 - **Monday**:  
   - Onboarding, course overview, career pathways, tools introduction.  
 - **Tuesday**:  
@@ -33,7 +47,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 ---
 
-#### **Week 2: SQL Essentials for Data Engineering**
+#### Week 2: SQL Essentials for Data Engineering
 - **Monday**:  
   - Core SQL concepts (`SELECT`, `WHERE`, `JOIN`, `GROUP BY`).  
 - **Tuesday**:  
@@ -49,7 +63,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 ---
 
-#### **Week 3: Introduction to Data Pipelines**
+#### Week 3: Introduction to Data Pipelines
 - **Monday**:  
   - Theory: Introduction to ETL/ELT workflows.  
 - **Tuesday**:  
@@ -65,7 +79,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 ---
 
-#### **Week 4: Introduction to Apache Airflow**
+#### Week 4: Introduction to Apache Airflow
 - **Monday**:  
   - Theory: Introduction to Apache Airflow, DAGs, and scheduling.  
 - **Tuesday**:  
@@ -83,7 +97,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 ### **Month 2: Intermediate Tools and Concepts**
 
-#### **Week 5: Data Warehousing and Data Lakes**
+#### Week 5: Data Warehousing and Data Lakes
 - **Monday**:  
   - Theory: Introduction to data warehousing (OLAP vs. OLTP, partitioning, clustering).  
 - **Tuesday**:  
@@ -99,7 +113,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 ---
 
-#### **Week 6: Data Governance and Security**
+#### Week 6: Data Governance and Security
 - **Monday**:  
   - Theory: Data governance frameworks and data security principles.  
 - **Tuesday**:  
@@ -115,7 +129,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 ---
 
-#### **Week 7: Real-Time Data Processing with Kafka**
+#### Week 7: Real-Time Data Processing with Kafka
 - **Monday**:  
   - Theory: - [Introduction to Apache Kafka for real-time data streaming](/introduction-to-Kafka.md)
 - **Tuesday**:  
@@ -137,7 +151,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 ---
 
-#### **Week 8: Batch vs. Stream Processing**
+#### Week 8: Batch vs. Stream Processing
 - **Monday**:  
   - Theory: Introduction to batch vs. stream processing.  
 - **Tuesday**:  
@@ -155,7 +169,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 ### **Month 3: Advanced Data Engineering**
 
-#### **Week 9: Machine Learning Integration in Data Pipelines**
+#### Week 9: Machine Learning Integration in Data Pipelines
 - **Monday**:  
   - Theory: Overview of ML workflows in data engineering.  
 - **Tuesday**:  
@@ -171,7 +185,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 ---
 
-#### **Week 10: Spark and PySpark for Big Data**
+#### Week 10: Spark and PySpark for Big Data
 - **Monday**:  
   - Theory: Introduction to Apache Spark for big data processing.  
 - **Tuesday**:  
@@ -187,7 +201,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 ---
 
-#### **Week 11: Advanced Apache Airflow Techniques**
+#### Week 11: Advanced Apache Airflow Techniques
 - **Monday**:  
   - Theory: Advanced Airflow features (XCom, task dependencies).  
 - **Tuesday**:  
@@ -203,7 +217,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 ---
 
-#### **Week 12: Data Lakes and Delta Lake**
+#### Week 12: Data Lakes and Delta Lake
 - **Monday**:  
   - Theory: Data lakes, Lakehouses, and Delta Lake architecture.  
 - **Tuesday**:  
@@ -221,7 +235,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 ### **Month 4: Capstone Projects**
 
-#### **Week 13: Batch Data Pipeline Development**
+#### Week 13: Batch Data Pipeline Development
 - **Monday to Thursday**:  
   - **Design and Implementation**:  
     - Build an end-to-end batch data pipeline for e-commerce sales analytics.  
@@ -233,7 +247,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 ---
 
-#### **Week 14: Real-Time Data Pipeline Development**
+#### Week 14: Real-Time Data Pipeline Development
 - **Monday to Thursday**:  
   - **Design and Implementation**:  
     - Build an end-to-end real-time data pipeline for IoT sensor monitoring.  
@@ -245,7 +259,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 ---
 
-#### **Week 15: Final Project Integration**
+#### Week 15: Final Project Integration
 - **Monday to Thursday**:  
   - **Design and Implementation**:  
     - Integrate both batch and real-time pipelines for a comprehensive end-to-end solution.  
@@ -258,7 +272,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 ---
 
 #### Week 16: Capstone Project Presentation
-- #Monday to Thursday:  
+- **Monday to Thursday**:  
   - Final Presentation Preparation:  
     - Polish, test, and document the final project.  
 - **Friday**:  
