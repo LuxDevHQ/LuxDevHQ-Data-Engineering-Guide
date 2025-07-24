@@ -1,6 +1,6 @@
 # MinIO Setup Guide
 
-### ✅ Step 1: Download MinIO Server Binary
+### Step 1: Download MinIO Server Binary
 
 ```bash
 wget https://dl.min.io/server/minio/release/linux-amd64/minio
@@ -10,7 +10,7 @@ sudo mv minio /usr/local/bin/
 
 This downloads and installs the `minio` binary system-wide.
 
-### ✅ Step 2: Create MinIO Data Directory
+### Step 2: Create MinIO Data Directory
 
 ```bash
 mkdir -p ~/minio-data
@@ -18,7 +18,7 @@ mkdir -p ~/minio-data
 
 This is where your data lake files (CSV, JSON, Parquet, etc.) will be stored.
 
-### ✅ Step 3: Run MinIO Server
+### Step 3: Run MinIO Server
 
 ```bash
 export MINIO_ROOT_USER=minioadmin
@@ -33,7 +33,7 @@ minio server ~/minio-data --console-address ":9001"
   - Username: `minioadmin`
   - Password: `minioadmin`
 
-### ✅ Step 4: Access MinIO Web Console
+### Step 4: Access MinIO Web Console
 
 1. Go to: http://localhost:9001
 2. Login with:
@@ -41,14 +41,14 @@ minio server ~/minio-data --console-address ":9001"
    - Password: `minioadmin`
 3. Create a bucket called `datalake`.
 
-### ✅ Step 5: Upload Files
+### Step 5: Upload Files
 
 Click **"Buckets" → "datalake" → "Upload"**, and upload sample files like:
 - `sales.csv`
 - `products.csv`
 - `customers.csv`
 
-## 🧪 Step 6: Access MinIO with Python
+## Step 6: Access MinIO with Python
 
 Install dependencies:
 
@@ -75,7 +75,7 @@ df = pd.read_csv(
 print(df.head())
 ```
 
-## 🧰 Optional Tools to Add
+## Optional Tools to Add
 
 | Tool | Purpose |
 |------|---------|
@@ -84,7 +84,7 @@ print(df.head())
 | **Streamlit** | To create dashboards using cleaned data |
 | **Parquet/Feather** | For storing large processed data efficiently |
 
-## 🧠 Mini Data Lake Project Idea (No Docker Needed)
+## Mini Data Lake Project Idea (No Docker Needed)
 
 **Project Name:** "Mini Data Lake for Kenyan Retail Sales"
 
