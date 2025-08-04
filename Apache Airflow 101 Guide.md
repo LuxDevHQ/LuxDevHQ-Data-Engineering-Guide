@@ -1,6 +1,6 @@
 ## **Apache Airflow Setup & Introduction (Multi-Component Mode)**
 
-### **Understanding Workflow Orchestration**
+#### **Understanding Workflow Orchestration**
 
 **Workflow orchestration** is the automated coordination and management of complex data workflows. Think of it as a conductor directing an orchestra - it ensures that different data processing tasks run in the correct order, at the right time, and handles failures gracefully.
 
