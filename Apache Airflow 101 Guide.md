@@ -1,6 +1,6 @@
-# Apache Airflow Setup & Introduction (Multi-Component Mode)
+## **Apache Airflow Setup & Introduction (Multi-Component Mode)**
 
-## Understanding Workflow Orchestration
+### **Understanding Workflow Orchestration**
 
 **Workflow orchestration** is the automated coordination and management of complex data workflows. Think of it as a conductor directing an orchestra - it ensures that different data processing tasks run in the correct order, at the right time, and handles failures gracefully.
 
@@ -28,9 +28,9 @@
                     └─────────────┘
 ```
 
-## Step-by-Step Installation Guide (Multi-Component Mode)
+### Step-by-Step Installation Guide (Multi-Component Mode)
 
-### Setup with Separate Web Server and Scheduler
+#### Setup with Separate Web Server and Scheduler
 
 ```bash
 # 1. Create a new directory for your Airflow project
@@ -60,11 +60,11 @@ airflow users create \
     --password admin123
 ```
 
-### Running Web Server and Scheduler Separately
+#### Running Web Server and Scheduler Separately
 
 You'll need **two terminal windows** for this setup:
 
-#### Terminal 1: Start the Web Server
+##### Terminal 1: Start the Web Server
 ```bash
 # Activate virtual environment
 source airflow-env/bin/activate  # On Windows: airflow-env\Scripts\activate
@@ -76,7 +76,7 @@ export AIRFLOW_HOME=$(pwd)/airflow  # On Windows: set AIRFLOW_HOME=%cd%\airflow
 airflow webserver --port 8080
 ```
 
-#### Terminal 2: Start the Scheduler
+##### Terminal 2: Start the Scheduler
 ```bash
 # Open a new terminal window/tab
 cd airflow-tutorial
@@ -91,16 +91,16 @@ export AIRFLOW_HOME=$(pwd)/airflow  # On Windows: set AIRFLOW_HOME=%cd%\airflow
 airflow scheduler
 ```
 
-## Why Use Separate Components?
+### Why Use Separate Components?
 
-### Benefits of Multi-Component Setup:
+#### Benefits of Multi-Component Setup:
 - **Production-Ready**: Mirrors production deployment patterns
 - **Resource Management**: Each component can be scaled independently
 - **Monitoring**: Easier to monitor individual component performance
 - **Debugging**: Separate logs for web server and scheduler
 - **High Availability**: Can run multiple instances of each component
 
-### Component Responsibilities:
+#### Component Responsibilities:
 
 **Web Server:**
 - Serves the Airflow UI
@@ -114,7 +114,7 @@ airflow scheduler
 - Manages task dependencies
 - Handles task retries and failures
 
-## Accessing the Airflow UI
+### Accessing the Airflow UI
 
 1. **Ensure both components are running**:
    - Web server should show: `Serving on http://0.0.0.0:8080`
@@ -126,9 +126,9 @@ airflow scheduler
    - Username: `admin`
    - Password: `admin123`
 
-## Exploring the Airflow UI
+### Exploring the Airflow UI
 
-### 1. DAGs View (Main Dashboard)
+#### 1. DAGs View (Main Dashboard)
 - **What you'll see**: List of all available DAGs
 - **Key elements**:
   - DAG name and description
@@ -137,12 +137,12 @@ airflow scheduler
   - Last run date
   - Toggle to pause/unpause DAGs
 
-### 2. Tree View
+#### 2. Tree View
 - **Purpose**: Shows DAG runs over time
 - **How to access**: Click on any DAG → Tree View tab
 - **What it shows**: Task instances arranged by execution date
 
-### 3. Graph View
+#### 3. Graph View
 - **Purpose**: Visual representation of DAG structure
 - **Shows**: Task dependencies and current status
 - **Color coding**:
@@ -152,31 +152,31 @@ airflow scheduler
   - Light Blue: Queued
   - Gray: Not started
 
-### 4. Code View
+#### 4. Code View
 - **Purpose**: Shows the Python code that defines the DAG
 - **Useful for**: Understanding DAG logic and debugging
 
-### 5. Gantt Chart
+#### 5. Gantt Chart
 - **Purpose**: Shows task execution timeline
 - **Useful for**: Identifying bottlenecks and optimizing performance
 
-## Key Concepts Explained Simply
+### Key Concepts Explained Simply
 
-### DAG (Directed Acyclic Graph)
+#### DAG (Directed Acyclic Graph)
 A workflow definition - like a recipe that tells Airflow what tasks to run and in what order.
 
-### Tasks
+#### Tasks
 Individual units of work (like "download file", "process data", "send email").
 
-### Operators
+#### Operators
 Templates for tasks (PythonOperator, BashOperator, EmailOperator, etc.).
 
-### Task Instance
+#### Task Instance
 A specific execution of a task for a particular DAG run.
 
-## Monitoring Your Setup
+### Monitoring Your Setup
 
-### Checking Component Status:
+#### Checking Component Status:
 
 **Web Server Logs:**
 - Look for: `Serving on http://0.0.0.0:8080`
@@ -187,7 +187,7 @@ A specific execution of a task for a particular DAG run.
 - Regular DAG processing messages
 - No database connection errors
 
-### Health Check Commands:
+#### Health Check Commands:
 ```bash
 # Check if web server is responding
 curl http://localhost:8080/health
@@ -199,13 +199,13 @@ airflow dags list
 airflow jobs check --job-type SchedulerJob
 ```
 
-## Assignment Solutions
+### Assignment Solutions
 
-### Part 1: Why Airflow is Useful in Data Engineering
+#### Part 1: Why Airflow is Useful in Data Engineering
 
 Apache Airflow is essential in data engineering because it provides automated workflow orchestration that eliminates manual intervention in complex data pipelines. Unlike traditional cron jobs or script-based scheduling, Airflow offers dependency management, failure handling, and retry mechanisms that ensure data workflows run reliably at scale. Its Python-based approach allows data engineers to define workflows as code, making them version-controlled, testable, and maintainable, while the web UI provides real-time monitoring and debugging capabilities that are crucial for managing production data pipelines. The separation of the web server and scheduler components allows for better resource allocation and mirrors production deployment patterns used in enterprise environments.
 
-### Part 2: Screenshot Documentation
+#### Part 2: Screenshot Documentation
 
 **Expected Screenshot Elements:**
 - Airflow UI header with "Apache Airflow" logo
@@ -239,7 +239,7 @@ Apache Airflow is essential in data engineering because it provides automated wo
    - Ensure scheduler is running (it initializes the database)
    - Check file permissions on `airflow.db`
 
-## Success Checklist ✅
+### Success Checklist ✅
 
 - [ ] Airflow installed in virtual environment
 - [ ] Database initialized successfully
@@ -253,12 +253,12 @@ Apache Airflow is essential in data engineering because it provides automated wo
 - [ ] Can navigate between different views (Tree, Graph, Code)
 - [ ] Screenshot saved showing successful multi-component setup
 
-## Stopping Airflow Properly
+### Stopping Airflow Properly
 
 To stop Airflow cleanly:
 1. **Stop the scheduler**: `Ctrl+C` in the scheduler terminal
 2. **Stop the web server**: `Ctrl+C` in the web server terminal
 3. **Deactivate virtual environment**: `deactivate`
 
-## Next Steps Preview
+### Next Steps Preview
 Tomorrow we'll create our first custom DAG and understand how to define tasks and dependencies using this multi-component setup!
