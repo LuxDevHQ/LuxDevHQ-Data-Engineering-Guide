@@ -1,13 +1,6 @@
-Below is the **entire contents of the SQL-Manual.pdf** reformatted as a single, **clean, navigable Markdown document**.  
-The structure follows the original page order while adding Markdown niceties (headings, fenced code blocks, tables, etc.).  
-You can drop this into any `.md` file or GitHub repo and it will render perfectly.
-
----
-
 # Structured Query Language (SQL)  
 **Course Manual – Version 1.2**  
-Relational Systems Corporation  
-© 2001
+© 2025
 
 ---
 
