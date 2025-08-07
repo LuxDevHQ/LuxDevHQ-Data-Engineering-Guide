@@ -294,8 +294,3 @@ DROP TABLE tbl;
 COMMIT;
 ROLLBACK;
 ```
-
----
-
-> 📌 End of full Markdown transcription.  
-> Copy everything into `SQL-Manual.md` and enjoy searchable, hyperlink-friendly SQL notes!
