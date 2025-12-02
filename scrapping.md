@@ -1,10 +1,10 @@
 ### **1. What is Beautiful Soup?**
 
-**Definition (simple):**
+**Definition:**
 
-Beautiful Soup is a Python library that turns messy HTML into a structured object, so you can easily search, navigate, and extract data from web pages.
+Beautiful Soup is a Python library that turns messy HTML into a structured object, so you can easily search, navigate, and extract data from web pages. When you download a web page (as text), it usually looks like a big, ugly string with lots of tags. 
 
-When you download a web page (as text), it usually looks like a big, ugly string with lots of tags. Beautiful Soup:
+Beautiful Soup:
 
 - Parses that HTML (understands the structure)
 - Builds a tree of tags (like a family tree of elements: `<html> → <body> → <div> → <p>` etc.)
