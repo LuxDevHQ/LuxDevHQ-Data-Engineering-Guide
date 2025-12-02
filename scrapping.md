@@ -155,3 +155,5 @@ print("Link URL:", link_url)
 ### **6. One-sentence summary for students**
 
 Beautiful Soup is a Python tool that makes it easy to read HTML and pull out just the data you need from web pages.
+
+Documentation: https://www.crummy.com/software/BeautifulSoup/bs4/doc/#api-documentation
