@@ -35,7 +35,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 - **Monday**:  
   - Onboarding, course overview, career pathways, tools introduction.  
 - **Tuesday**:  
-  - Introduction to cloud computing (Azure and AWS).  
+  - Introduction to cloud computing (Azure, GCP, and AWS).  
 - **Wednesday**:  
   - Data governance, security, compliance, and access control.  
 - **Thursday**:  
