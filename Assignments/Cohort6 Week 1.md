@@ -25,8 +25,13 @@ ssh root@147.182.232.57 -p 22
 
 ### **Task 1: User & Group Management**
 - Create a new group called `analytics_<yourname>`.
+  *Example:*
+  ```bash
+  Username: analytics_Ganthony
+  ```
 - Create two users: `analyst1_<yourname>` and `analyst2_<yourname>`.
 - Add both users to the `analytics_<yourname>` group.
 - Ensure both users have valid home directories, and Verify group membership.
+
 
 
