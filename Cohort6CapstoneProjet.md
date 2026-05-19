@@ -35,7 +35,7 @@ Official docs: https://docs.kraken.com/
 
 ---
 
-### **🏗️ System Architecture (Required Components)**
+### **System Architecture (Required Components)**
 
 You will build the following end-to-end pipeline:
 
@@ -108,7 +108,7 @@ Responsibilities:
 
 ---
 
-### **🔐 Environment Variables & Security (VERY IMPORTANT)**
+### **Environment Variables & Security (VERY IMPORTANT)**
 
 All secrets MUST be stored in a `.env` file.
 
