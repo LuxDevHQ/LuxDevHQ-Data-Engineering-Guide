@@ -1,3 +1,4 @@
+# Crypto Market Data Engineering Capstone Project
 
 ## Project Overview
 
@@ -5,14 +6,14 @@ In this capstone, you will design and implement a production-style distributed d
 
 ---
 
-### ** Data Sources (APIs)**
+## Data Sources APIs
 
 You are required to use at least one of the following data providers:
 
-#### **1. Binance API**
-:contentReference[oaicite:0]{index=0}
+### 1. Binance API
 
 Primary source of crypto market data:
+
 - Live price ticks
 - Trading pairs
 - Order book data
@@ -22,10 +23,10 @@ Official docs: https://binance-docs.github.io/apidocs/
 
 ---
 
-#### **2. Kraken API (OPTIONAL BUT RECOMMENDED)**
-:contentReference[oaicite:1]{index=1}
+### 2. Kraken API Optional but Recommended
 
 Alternative or additional data source:
+
 - Real-time trade data
 - OHLC candlestick data
 - Asset pairs
@@ -35,33 +36,33 @@ Official docs: https://docs.kraken.com/
 
 ---
 
-### **System Architecture (Required Components)**
+## System Architecture Required Components
 
 You will build the following end-to-end pipeline:
 
 ---
 
-### **1. Data Ingestion Layer**
+## 1. Data Ingestion Layer
 
-Use API calls from Binance or Kraken and schedule ingestion using:
+Use API calls from Binance or Kraken and schedule ingestion using Airflow.
 
-:contentReference[oaicite:2]{index=2}
+### Responsibilities
 
-Responsibilities:
 - Fetch data from APIs
 - Validate incoming data
 - Store raw data in PostgreSQL
 
 ---
 
-### **2. Staging Database**
+## 2. Staging Database
 
-:contentReference[oaicite:3]{index=3}
+Use PostgreSQL as the staging database.
 
-Responsibilities:
+### Responsibilities
+
 - Store raw ingested data
 - Act as a buffer before streaming
-- Maintain structured tables:
+- Maintain structured tables such as:
   - trades
   - prices
   - symbols
@@ -69,50 +70,54 @@ Responsibilities:
 
 ---
 
-### **3. Streaming Layer**
+## 3. Streaming Layer
 
-:contentReference[oaicite:4]{index=4}  
-:contentReference[oaicite:5]{index=5}  
+Use Kafka as the streaming layer.
 
-Supporting Components:
-- Schema Registry (data validation & evolution)
-- Control Center (monitoring Kafka streams)
+Supporting components may include:
 
-Responsibilities:
+- Schema Registry for data validation and schema evolution
+- Control Center or Kafka UI for monitoring Kafka streams
+
+### Responsibilities
+
 - Stream data from PostgreSQL to Kafka topics
-- Enable real-time data movement
+- Enable real-time data movement across the pipeline
 
 ---
 
-### **4. Processing Layer**
+## 4. Processing Layer
 
-:contentReference[oaicite:6]{index=6}
+Use Apache Spark for distributed stream processing.
 
-Responsibilities:
+### Responsibilities
+
 - Consume Kafka streams
-- Perform transformations:
-  - Aggregations (minute/hour averages)
+- Perform transformations such as:
+  - Minute or hourly price averages
   - Volatility calculations
   - Trade volume analysis
   - Optional anomaly detection
 
 ---
 
-### **5. Serving Layer**
+## 5. Serving Layer
 
-:contentReference[oaicite:7]{index=7}
+Use Cassandra as the serving database.
 
-Responsibilities:
+### Responsibilities
+
 - Store processed streaming outputs
 - Support fast query access for dashboards and analytics
 
 ---
 
-### **Environment Variables & Security (VERY IMPORTANT)**
+## Environment Variables and Security
 
-All secrets MUST be stored in a `.env` file.
+All secrets must be stored in a `.env` file.
 
-#### Example `.env`
+### Example `.env`
+
 ```bash
 BINANCE_API_KEY=your_key_here
 BINANCE_SECRET_KEY=your_secret_here
@@ -125,11 +130,15 @@ POSTGRES_PASSWORD=strongpassword
 POSTGRES_DB=crypto_pipeline
 ```
 
+---
 
-GitHub Safety (.gitignore REQUIRED)
+## GitHub Safety
 
-You MUST include a .gitignore file to avoid leaking sensitive files.
+You must include a `.gitignore` file to avoid leaking sensitive files.
 
+### Required `.gitignore`
+
+```gitignore
 # Environment variables
 .env
 
@@ -156,50 +165,71 @@ Thumbs.db
 # Virtual environments
 venv/
 env/
+```
 
- ### System Requirements
+---
+
+## System Requirements
 
 Your pipeline must include:
 
-Batch + Streaming hybrid architecture
-Airflow for orchestration
-Kafka for real-time streaming
-Spark for distributed processing
-PostgreSQL for raw storage
-Cassandra for processed storage
-📊 Expected Outputs
+- Batch and streaming hybrid architecture
+- Airflow for orchestration
+- Kafka for real-time streaming
+- Spark for distributed processing
+- PostgreSQL for raw storage
+- Cassandra for processed storage
+
+---
+
+## Expected Outputs
 
 By the end of the project, your system should:
 
-Ingest live crypto data from Binance or Kraken
-Stream data through Kafka in real time
-Process streaming data with Spark
-Store raw and processed data appropriately
-Be fully reproducible from code
-🏁 Submission Requirements
+- Ingest live crypto data from Binance or Kraken
+- Stream data through Kafka in real time
+- Process streaming data with Spark
+- Store raw and processed data appropriately
+- Be fully reproducible from code
+
+---
+
+## Submission Requirements
 
 You must submit:
 
-GitHub repository (clean and organized)
-README.md with:
-Architecture diagram
-Setup instructions
-Environment setup guide
-.env.example file (NO real secrets)
-Proper .gitignore
-Airflow DAGs
-Spark jobs
-Kafka configs (if applicable)
-🎯 Evaluation Criteria
-System design correctness
-Streaming pipeline implementation
-Code quality & modularity
-Security practices (.env + gitignore)
-Scalability thinking
-Documentation clarity
-🚀 Bonus Features (Optional)
-Dockerize the full pipeline
-Add monitoring dashboards
-Multi-exchange comparison (Binance vs Kraken)
-Real-time anomaly detection
-Build API layer for Cassandra queries
+- GitHub repository that is clean and organized
+- `README.md` with:
+  - Architecture diagram
+  - Setup instructions
+  - Environment setup guide
+- `.env.example` file with no real secrets
+- Proper `.gitignore`
+- Airflow DAGs
+- Spark jobs
+- Kafka configurations, if applicable
+
+---
+
+## Evaluation Criteria
+
+Your project will be evaluated based on:
+
+- System design correctness
+- Streaming pipeline implementation
+- Code quality and modularity
+- Security practices using `.env` and `.gitignore`
+- Scalability thinking
+- Documentation clarity
+
+---
+
+## Bonus Features Optional
+
+You may add any of the following bonus features:
+
+- Dockerize the full pipeline
+- Add monitoring dashboards
+- Compare multiple exchanges, for example Binance vs Kraken
+- Add real-time anomaly detection
+- Build an API layer for querying Cassandra data
