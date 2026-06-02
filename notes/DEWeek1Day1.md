@@ -1,3 +1,5 @@
+### **What is data engineering? What are you getting yourself into?** 
+
 **Data engineering** is the process of collecting, moving, cleaning, storing, and preparing data so that analysts, data scientists, AI systems, and businesses can use it.
 
 **In simple terms,** data engineering is about building the systems that make data available, reliable, and usable.
