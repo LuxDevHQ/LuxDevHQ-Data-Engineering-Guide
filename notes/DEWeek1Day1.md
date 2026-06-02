@@ -94,7 +94,7 @@ A company may store raw CSV files, JSON files, images, logs, and backups in:
 
 These storage services are commonly used as the foundation of a **data lake**.
 
-### B. Databases
+#### B. Databases
 
 These services store structured data used by applications and business systems.
 
@@ -115,7 +115,7 @@ A payment platform may store customer transactions in **PostgreSQL**. Instead of
 
 This reduces the work of managing backups, scaling, updates, and availability.
 
-### C. Data warehouses
+#### C. Data warehouses
 
 A **data warehouse** stores clean, structured data for reporting, dashboards, business intelligence, and analytics.
 
@@ -141,7 +141,7 @@ The cleaned data can be loaded into:
 
 BigQuery is Google Cloud’s data and AI platform for warehousing, analytics, and AI-driven insights.
 
-### D. Data integration and ETL/ELT services
+#### D. Data integration and ETL/ELT services
 
 These services help move data from different sources into storage or data warehouses.
 
@@ -163,7 +163,7 @@ A data engineer may build a pipeline that:
 
 On Azure, Data Factory is used for building data integration pipelines, and Microsoft describes Fabric Data Factory as the next generation of Azure Data Factory for modern data integration.
 
-### E. Big data processing services
+#### E. Big data processing services
 
 These are used when data is too large to process on one normal computer.
 
@@ -184,7 +184,7 @@ A telecom company may have billions of call records. A data engineer can process
 
 Google Cloud describes Dataflow as a managed service for executing many batch and streaming data processing patterns.
 
-### F. Real-time streaming services
+#### F. Real-time streaming services
 
 Streaming services are used when data must be processed immediately as it arrives.
 
@@ -209,7 +209,7 @@ On GCP, a common real-time pipeline is **Pub/Sub → Dataflow → BigQuery**, wh
 
 Google’s documentation shows this pattern for streaming JSON messages from Pub/Sub into BigQuery through Dataflow.
 
-### G. Analytics and business intelligence
+##### G. Analytics and business intelligence
 
 These services help users analyze and visualize data.
 
@@ -266,7 +266,10 @@ Processing / Transformation
 Data Warehouse
     ↓
 Dashboards / Reports / AI Models
+```
+
 Example using AWS
+```text
 PostgreSQL / APIs / CSV files
     ↓
 AWS Glue / Kinesis
@@ -278,7 +281,10 @@ AWS Glue / EMR
 Amazon Redshift / Athena
     ↓
 QuickSight / Power BI
-Example using Azure
+```
+
+**Example using Azure.**
+```text
 SQL Server / APIs / Excel / Apps
     ↓
 Azure Data Factory / Event Hubs
@@ -290,7 +296,11 @@ Azure Databricks / Synapse Spark
 Azure Synapse Analytics / Fabric Warehouse
     ↓
 Power BI
-Example using GCP
+```
+
+**Example using GCP.**
+
+```text
 Cloud SQL / APIs / Files / App Events
     ↓
 Pub/Sub / Dataflow / Data Fusion
@@ -302,6 +312,7 @@ Dataflow / Dataproc
 BigQuery
     ↓
 Looker / Looker Studio / Power BI
+```
 
 
 ## 3. Side-by-side comparison of AWS, Azure, and GCP for data engineering
