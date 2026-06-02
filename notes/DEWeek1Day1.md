@@ -331,7 +331,7 @@ Looker / Looker Studio / Power BI
 | Monitoring | CloudWatch | Azure Monitor | Cloud Monitoring |
 | Secrets management | Secrets Manager | Key Vault | Secret Manager |
 
-#### 4. How to explain cloud services to beginners.**
+#### **4. How to explain cloud services to beginners.**
 
 Think of cloud services like renting a modern data center online.
 
@@ -418,7 +418,7 @@ Good if your learners want strong analytics, BigQuery, and AI integration.
 9. Looker Studio
 10. Vertex AI
 
-## 6. Beginner-friendly definition
+#### **6. Beginner-friendly definition.**
 
 **Cloud computing in data engineering** means using online platforms like **AWS**, **Azure**, and **GCP** to store, move, process, clean, analyze, and secure data without managing physical servers.
 
