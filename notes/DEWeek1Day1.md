@@ -72,7 +72,7 @@ The three major cloud platforms used in data engineering are:
 3. **GCP** — Google Cloud Platform
 
 
-##### **1. Main cloud services used in data engineering.**
+#### **1. Main cloud services used in data engineering.**
 
 ###### **A. Data storage services.**
 
@@ -249,8 +249,7 @@ A data engineer may prepare customer transaction data for a credit scoring model
 - **Vertex AI**
 
 
-
-## 2. Common data engineering architecture in the cloud
+#### **2. Common data engineering architecture in the cloud/***
 
 A typical cloud data engineering system looks like this:
 
@@ -314,8 +313,7 @@ BigQuery
 Looker / Looker Studio / Power BI
 ```
 
-
-## 3. Side-by-side comparison of AWS, Azure, and GCP for data engineering
+#### **3. Side-by-side comparison of AWS, Azure, and GCP for data engineering.**
 
 | Data Engineering Need | AWS | Azure | GCP |
 |---|---|---|---|
@@ -333,7 +331,7 @@ Looker / Looker Studio / Power BI
 | Monitoring | CloudWatch | Azure Monitor | Cloud Monitoring |
 | Secrets management | Secrets Manager | Key Vault | Secret Manager |
 
-## 4. How to explain cloud services to beginners
+#### 4. How to explain cloud services to beginners.**
 
 Think of cloud services like renting a modern data center online.
 
@@ -359,7 +357,7 @@ For data engineering:
 - **BI tools** turn data into dashboards.
 - **ML tools** use prepared data to train AI models.
 
-## 5. Which cloud should a beginner learn first?
+#### **5. Which cloud should a beginner learn first?**
 
 For data engineering students, I would recommend this path:
 
