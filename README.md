@@ -33,7 +33,8 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 #### Week 1: Onboarding and Environment Setup
 - **Monday**:  
-  - Onboarding, course overview, career pathways, tools introduction.  
+  - Onboarding, course overview, career pathways, tools introduction.
+    [Week 1, Day 1]( )
 - **Tuesday**:  
   - Introduction to cloud computing (Azure, GCP, and AWS).  
 - **Wednesday**:  
