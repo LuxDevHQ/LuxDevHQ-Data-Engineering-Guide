@@ -39,7 +39,8 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
   - Introduction to cloud computing (Azure, GCP, and AWS). 
   - Notes: [Week 1, Day 2](notes/DEWeek1Day2.md) 
 - **Wednesday**:  
-  - Data governance, security, compliance, and access control.  
+  - Data governance, security, compliance, and access control.
+  - Notes: [Week 1, Day 3](notes/DEWeek1Day3.md)  
 - **Thursday**:  
   - Introduction to SQL for data engineering and PostgreSQL setup.  
 - **Friday**:  
