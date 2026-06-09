@@ -42,7 +42,8 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
   - Data governance, security, compliance, and access control.
   - Notes: [Week 1, Day 3](notes/DEWeek1Day3.md)  
 - **Thursday**:  
-  - Introduction to SQL for data engineering and PostgreSQL setup.  
+  - Introduction to SQL for data engineering and PostgreSQL setup. 
+  - Notes: [Week 1, Day 4](notes/DEWeek1Day4.md) 
 - **Friday**:  
   - **Peer Project**: Environment setup challenges.  
 - **Saturday (Lab)**:  
