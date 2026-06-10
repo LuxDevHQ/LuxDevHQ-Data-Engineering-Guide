@@ -53,7 +53,8 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 #### Week 2: SQL Essentials for Data Engineering
 - **Monday**:  
-  - Core SQL concepts (`SELECT`, `WHERE`, `JOIN`, `GROUP BY`).  
+  - Core SQL concepts (`SELECT`, `WHERE`, `JOIN`, `GROUP BY`).
+  - Notes: [Week 2, Day 1](notes/DEWeek2Day1.md)  
 - **Tuesday**:  
   - Advanced SQL techniques: recursive queries, window functions, Views, Stored Procedures, Subque ries and CTEs.  
 - **Wednesday**:  
