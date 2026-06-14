@@ -57,6 +57,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
   - Notes: [Week 2, Day 1](notes/DEWeek2Day1.md)  
 - **Tuesday**:  
   - Advanced SQL techniques: recursive queries, window functions, Views, Stored Procedures, Subque ries and CTEs.  
+  - Notes: [Week 2, Day 2](notes/DEWeek2Day2.md)
 - **Wednesday**:  
   - Query optimization and execution plans.  
 - **Thursday**:  
