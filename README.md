@@ -62,7 +62,8 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
   - Query optimization and execution plans.  
   - Notes: [Week 2, Day 3](notes/DEWeek2Day3.md)
 - **Thursday**:  
-  - Data modeling: normalization, denormalization, and star schemas.  
+  - Data modeling: normalization, denormalization, and star schemas. 
+  - Notes: [Week 2 Day 4](notes/DEWeek2Day4.md) 
 - **Friday**:  
   - **Job Shadowing**: Observe senior engineers writing and optimizing SQL queries.  
 - **Saturday (Lab)**:  
