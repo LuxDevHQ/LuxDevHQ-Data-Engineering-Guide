@@ -42,7 +42,8 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
   - Data governance, security, compliance, and access control.
   - Notes: [Week 1, Day 3](notes/DEWeek1Day3.md)  
 - **Thursday**:  
-  - Introduction to SQL for data engineering and PostgreSQL setup.  
+  - Introduction to SQL for data engineering and PostgreSQL setup. 
+  - Notes: [Week 1, Day 4](notes/DEWeek1Day4.md) 
 - **Friday**:  
   - **Peer Project**: Environment setup challenges.  
 - **Saturday (Lab)**:  
@@ -52,13 +53,17 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 #### Week 2: SQL Essentials for Data Engineering
 - **Monday**:  
-  - Core SQL concepts (`SELECT`, `WHERE`, `JOIN`, `GROUP BY`).  
+  - Core SQL concepts (`SELECT`, `WHERE`, `JOIN`, `GROUP BY`).
+  - Notes: [Week 2, Day 1](notes/DEWeek2Day1.md)  
 - **Tuesday**:  
   - Advanced SQL techniques: recursive queries, window functions, Views, Stored Procedures, Subque ries and CTEs.  
+  - Notes: [Week 2, Day 2](notes/DEWeek2Day2.md)
 - **Wednesday**:  
   - Query optimization and execution plans.  
+  - Notes: [Week 2, Day 3](notes/DEWeek2Day3.md)
 - **Thursday**:  
-  - Data modeling: normalization, denormalization, and star schemas.  
+  - Data modeling: normalization, denormalization, and star schemas. 
+  - Notes: [Week 2 Day 4](notes/DEWeek2Day4.md) 
 - **Friday**:  
   - **Job Shadowing**: Observe senior engineers writing and optimizing SQL queries.  
 - **Saturday (Lab)**:  
