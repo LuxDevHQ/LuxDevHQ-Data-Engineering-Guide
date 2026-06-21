@@ -60,6 +60,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
   - Notes: [Week 2, Day 2](notes/DEWeek2Day2.md)
 - **Wednesday**:  
   - Query optimization and execution plans.  
+  - Notes: [Week 2, Day 3](notes/DEWeek2Day3.md)
 - **Thursday**:  
   - Data modeling: normalization, denormalization, and star schemas.  
 - **Friday**:  
