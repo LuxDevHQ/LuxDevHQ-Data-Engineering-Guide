@@ -73,7 +73,8 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 #### Week 3: Introduction to Data Pipelines
 - **Monday**:  
-  - Theory: Introduction to ETL/ELT workflows.  
+  - Theory: Introduction to ETL/ELT workflows.
+  - Notes: [Week 3 Day 1](notes/DEWeek3Day1.md)  
 - **Tuesday**:  
   - Lab: Create a simple Python-based ETL pipeline for CSV data.  
 - **Wednesday**:  
