@@ -76,9 +76,11 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
   - Theory: Introduction to ETL/ELT workflows.
   - Notes: [Week 3 Day 1](notes/DEWeek3Day1.md)  
 - **Tuesday**:  
-  - Lab: Create a simple Python-based ETL pipeline for CSV data.  
+  - Lab: Create a simple Python-based ETL pipeline for CSV data. 
+  - Notes: [Week 3 Day 2](notes/DEWeek3Day2.md) 
 - **Wednesday**:  
   - Theory: Extract, transform, load (ETL) concepts and best practices.  
+  - Notes: [Week 3 Day 3](notes/DEWeek3Day3.md)
 - **Thursday**:  
   - Lab: Build a Python ETL pipeline for batch data processing.  
 - **Friday**:  
