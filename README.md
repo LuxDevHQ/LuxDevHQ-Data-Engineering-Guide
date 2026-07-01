@@ -82,7 +82,8 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
   - Theory: Extract, transform, load (ETL) concepts and best practices.  
   - Notes: [Week 3 Day 3](notes/DEWeek3Day3.md)
 - **Thursday**:  
-  - Lab: Build a Python ETL pipeline for batch data processing.  
+  - Lab: Build a Python ETL pipeline for batch data processing.
+  - Notes: [Week 3 Day 4](notes/DEWeek3Day4.md)  
 - **Friday**:  
   - **Peer Project**: Collaborate to design a basic ETL workflow.  
 - **Saturday (Lab)**:  
