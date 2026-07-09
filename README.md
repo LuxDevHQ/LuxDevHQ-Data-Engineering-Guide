@@ -93,7 +93,8 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 #### Week 4: Introduction to Apache Airflow
 - **Monday**:  
-  - Theory: Introduction to Apache Airflow, DAGs, and scheduling.  
+  - Theory: Introduction to Apache Airflow, DAGs, and scheduling. 
+  - Notes : [Week 4 Day 1](notes/DEWeek4Day1.md) 
 - **Tuesday**:  
   - Lab: Set up Apache Airflow and create a basic DAG.  
 - **Wednesday**:  
