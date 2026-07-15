@@ -1,6 +1,6 @@
 ## **LuxDevHQ Data Engineering Course Outline**
 
-This comprehensive course spans **4 months** (16 weeks) and equips learners with expertise in Python, SQL, Azure, AWS, Apache Airflow, Kafka, Spark, and more.
+This comprehensive course spans **4 months plus 1 extra week** (17 weeks total) and equips learners with expertise in Python, SQL, Azure, AWS, Apache Airflow, Kafka, Spark, and more.
 - **Learning Days**: Monday to Thursday (theory and practice).
 - **Friday**: Job shadowing or peer projects.
 - **Saturday**: Hands-on lab sessions and project-based learning.
@@ -9,21 +9,22 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 ## Table of Contents
 
 1. [Week 1](#week-1-Onboarding-and-Environment-Setup)
-2. [Week 2](#week-2-SQL-Essentials-for-Data-Engineering)
-3. [Week 3](#week-3-Introduction-to-Data-Pipelines)
-4. [Week 4](#week-4-Introduction-to-Apache-Airflow)
-5. [Week 5](#week-5-Data-Warehousing-and-Data-Lakes)
-6. [Week 6](#week-6-Data-Governance-and-Security)
-7. [Week 7](#week-7-Real-Time-Data-Processing-with-Kafka)
-8. [Week 8](#week-8-Batch-vs-Stream-Processing)
-9. [Week 9](#week-9-Machine-Learning-Integration-in-Data-Pipelines)
-10. [Week 10](#week-10-Spark-and-PySpark-for-Big-Data)
-11. [Week 11](#week-11-Advanced-Apache-Airflow-Techniques)
-12. [Week 12](#week-12-Data-Lakes-and-Delta-Lake)
-13. [Week 13](#week-13-Batch-Data-Pipeline-Development)
-14. [Week 14](#week-14-Real-Time-Data-Pipeline-Development)
-15. [Week 15](#week-15-Final-Project-Integration)
-16. [Week 16](#week-16-capstone-project-presentation)
+2. [Week 2](#week-2-Power-BI-for-Data-Visualization)
+3. [Week 3](#week-3-SQL-Essentials-for-Data-Engineering)
+4. [Week 4](#week-4-Introduction-to-Data-Pipelines)
+5. [Week 5](#week-5-Introduction-to-Apache-Airflow)
+6. [Week 6](#week-6-Data-Warehousing-and-Data-Lakes)
+7. [Week 7](#week-7-Data-Governance-and-Security)
+8. [Week 8](#week-8-Real-Time-Data-Processing-with-Kafka)
+9. [Week 9](#week-9-Batch-vs-Stream-Processing)
+10. [Week 10](#week-10-Machine-Learning-Integration-in-Data-Pipelines)
+11. [Week 11](#week-11-Spark-and-PySpark-for-Big-Data)
+12. [Week 12](#week-12-Advanced-Apache-Airflow-Techniques)
+13. [Week 13](#week-13-Data-Lakes-and-Delta-Lake)
+14. [Week 14](#week-14-Batch-Data-Pipeline-Development)
+15. [Week 15](#week-15-Real-Time-Data-Pipeline-Development)
+16. [Week 16](#week-16-Final-Project-Integration)
+17. [Week 17](#week-17-capstone-project-presentation)
 
 
 
@@ -51,12 +52,114 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 ---
 
-#### Week 2: SQL Essentials for Data Engineering
+#### Week 2: Power BI for Data Visualization
+
+##### **Week 2 - Day 1: Introduction to Power BI and Power Query Editor (Data Transformation)**
+
+**Overview & Setup**
+- What is Power BI? (Comparison with Excel & Tableau)
+- Power BI Components: Desktop, Service, Mobile
+- Installing Power BI Desktop
+- Power BI Desktop Interface Overview
+
+**Getting Data**
+- Importing Data from Excel, CSV, Web
+- Understanding Data Types and Field Formatting
+
+**Power Query Editor**
+- Opening Power Query Editor
+- Removing Rows, Columns, and Duplicates
+- Changing Data Types, Renaming Columns
+- Splitting & Merging Columns
+- Using "Replace Values"
+- Applied Steps, Reordering, and Removing Steps
+
+**Combining Queries**
+- **Merge Queries** (SQL-style joins)
+- **Append Queries** (Union of datasets)
+
+##### **Week 2 - Day 2: DAX Basics – Measures, Calculated Columns & Aggregations**
+
+**Introduction to DAX**
+- What is DAX (Data Analysis Expressions)?
+- Syntax Rules: =, (), [], Table & Column references
+
+**Calculated Columns vs Measures**
+- When to use each
+- Creating new fields using Calculated Columns
+- Building Measures for aggregations
+
+**Common DAX Functions**
+- **Aggregation**: SUM(), AVERAGE(), COUNT(), COUNTROWS(), DISTINCTCOUNT()
+- **Logical**: IF(), SWITCH(), AND(), OR()
+- **Date**: TODAY(), NOW(), YEAR(), MONTH(), DATEDIFF()
+- **Text**: CONCATENATE(), LEFT(), RIGHT(), LEN()
+
+**Practical Use Cases**
+- Total Revenue, Profit Margin, % Growth
+- IF(Sales > 50000, "High", "Low")
+- Number of Orders per Customer
+
+##### **Week 2 - Day 3: Data Modeling, Relationships & Joins**
+
+**Data Modeling Concepts**
+- What is a Data Model?
+- Star Schema vs Snowflake Schema
+- Importance of Fact and Dimension tables
+
+**Relationships in Power BI**
+- One-to-Many and Many-to-One relationships
+- Creating & Managing Relationships in Model View
+- Active vs Inactive Relationships
+
+**Data Joins**
+- Relationship-based vs Merge Query joins
+- Cardinality (One-to-One, One-to-Many)
+- Cross filter direction
+
+**Modeling Best Practices**
+- Hiding unnecessary columns
+- Using Lookup Tables
+- Creating Role-Playing Dimensions (e.g. Order Date vs Delivery Date)
+
+##### **Week 2 - Day 4: Visualizations, Charts & Dashboards**
+
+**Basic Visuals**
+- Bar Chart, Column Chart, Line Chart
+- Pie & Donut Charts
+- Card, KPI
+- Table & Matrix
+
+**Advanced Visuals**
+- Tree Map, Funnel, Gauge
+- Maps: Filled Map, Shape Map, ArcGIS Map
+- Custom Visuals (via AppSource)
+
+**Interactivity**
+- Visual-Level, Page-Level, Report-Level Filters
+- Slicers (Text, Date, Dropdowns)
+- Drill-down & Drill-through
+- Tooltips, Bookmarks, Buttons
+
+**Dashboard Building**
+- Designing a complete report page
+- Adding Titles, Backgrounds, Logos, Images
+- Aligning and Formatting Visuals
+- Creating Navigation Buttons
+
+**Publishing & Sharing**
+- Publishing to Power BI Service
+- Sharing Reports & Dashboards
+- Setting Scheduled Refresh
+
+---
+
+#### Week 3: SQL Essentials for Data Engineering
 - **Monday**:  
   - Core SQL concepts (`SELECT`, `WHERE`, `JOIN`, `GROUP BY`).
   - Notes: [Week 2, Day 1](notes/DEWeek2Day1.md)  
 - **Tuesday**:  
-  - Advanced SQL techniques: recursive queries, window functions, Views, Stored Procedures, Subque ries and CTEs.  
+  - Advanced SQL techniques: recursive queries, window functions, Views, Stored Procedures, Subqueries and CTEs.  
   - Notes: [Week 2, Day 2](notes/DEWeek2Day2.md)
 - **Wednesday**:  
   - Query optimization and execution plans.  
@@ -71,7 +174,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 ---
 
-#### Week 3: Introduction to Data Pipelines
+#### Week 4: Introduction to Data Pipelines
 - **Monday**:  
   - Theory: Introduction to ETL/ELT workflows.
   - Notes: [Week 3 Day 1](notes/DEWeek3Day1.md)  
@@ -91,7 +194,9 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 ---
 
-#### Week 4: Introduction to Apache Airflow
+### **Month 2: Intermediate Tools and Concepts**
+
+#### Week 5: Introduction to Apache Airflow
 - **Monday**:  
   - Theory: Introduction to Apache Airflow, DAGs, and scheduling. 
   - Notes : [Week 4 Day 1](notes/DEWeek4Day1.md) 
@@ -108,9 +213,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 ---
 
-### **Month 2: Intermediate Tools and Concepts**
-
-#### Week 5: Data Warehousing and Data Lakes
+#### Week 6: Data Warehousing and Data Lakes
 - **Monday**:  
   - Theory: Introduction to data warehousing (OLAP vs. OLTP, partitioning, clustering).  
 - **Tuesday**:  
@@ -126,7 +229,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 ---
 
-#### Week 6: Data Governance and Security
+#### Week 7: Data Governance and Security
 - **Monday**:  
   - Theory: Data governance frameworks and data security principles.  
 - **Tuesday**:  
@@ -142,7 +245,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 ---
 
-#### Week 7: Real-Time Data Processing with Kafka
+#### Week 8: Real-Time Data Processing with Kafka
 - **Monday**:  
   - Theory: - [Introduction to Apache Kafka for real-time data streaming](/introduction-to-Kafka.md)
 - **Tuesday**:  
@@ -164,7 +267,9 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 ---
 
-#### Week 8: Batch vs. Stream Processing
+### **Month 3: Advanced Data Engineering**
+
+#### Week 9: Batch vs. Stream Processing
 - **Monday**:  
   - Theory: Introduction to batch vs. stream processing.  
 - **Tuesday**:  
@@ -180,9 +285,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 ---
 
-### **Month 3: Advanced Data Engineering**
-
-#### Week 9: Machine Learning Integration in Data Pipelines
+#### Week 10: Machine Learning Integration in Data Pipelines
 - **Monday**:  
   - Theory: Overview of ML workflows in data engineering.  
 - **Tuesday**:  
@@ -198,7 +301,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 ---
 
-#### Week 10: Spark and PySpark for Big Data
+#### Week 11: Spark and PySpark for Big Data
 - **Monday**:  
   - Theory: Introduction to Apache Spark for big data processing.  
 - **Tuesday**:  
@@ -214,7 +317,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 ---
 
-#### Week 11: Advanced Apache Airflow Techniques
+#### Week 12: Advanced Apache Airflow Techniques
 - **Monday**:  
   - Theory: Advanced Airflow features (XCom, task dependencies).  
 - **Tuesday**:  
@@ -230,7 +333,9 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 ---
 
-#### Week 12: Data Lakes and Delta Lake
+### **Month 4: Capstone Projects**
+
+#### Week 13: Data Lakes and Delta Lake
 - **Monday**:  
   - Theory: Data lakes, Lakehouses, and Delta Lake architecture.  
 - **Tuesday**:  
@@ -246,9 +351,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 ---
 
-### **Month 4: Capstone Projects**
-
-#### Week 13: Batch Data Pipeline Development
+#### Week 14: Batch Data Pipeline Development
 - **Monday to Thursday**:  
   - **Design and Implementation**:  
     - Build an end-to-end batch data pipeline for e-commerce sales analytics.  
@@ -260,7 +363,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 ---
 
-#### Week 14: Real-Time Data Pipeline Development
+#### Week 15: Real-Time Data Pipeline Development
 - **Monday to Thursday**:  
   - **Design and Implementation**:  
     - Build an end-to-end real-time data pipeline for IoT sensor monitoring.  
@@ -272,7 +375,7 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 ---
 
-#### Week 15: Final Project Integration
+#### Week 16: Final Project Integration
 - **Monday to Thursday**:  
   - **Design and Implementation**:  
     - Integrate both batch and real-time pipelines for a comprehensive end-to-end solution.  
@@ -284,11 +387,13 @@ This comprehensive course spans **4 months** (16 weeks) and equips learners with
 
 ---
 
-#### Week 16: Capstone Project Presentation
+### **Extra Week**
+
+#### Week 17: Capstone Project Presentation
 - **Monday to Thursday**:  
   - Final Presentation Preparation:  
     - Polish, test, and document the final project.  
 - **Friday**:  
   - **Peer Review**: Present final projects to peers and receive feedback.  
 - **Saturday (Lab)**:  
-  - **Capstone Presentation**: Showcase completed capstone projects to industry professionals and instructors.  
+  - **Capstone Presentation**: Showcase completed capstone projects to industry professionals and instructors.
