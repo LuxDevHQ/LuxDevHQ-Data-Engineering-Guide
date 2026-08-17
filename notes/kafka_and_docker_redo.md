@@ -4,12 +4,9 @@
 
 This week, we will learn how modern Data Engineering systems use **Docker**, **Docker Hub**, **Apache Kafka**, and **Kafdrop* following a practical approach.
 
-We will **not start by running Kafka inside Docker**.
+We will **not start by running Kafka inside Docker**, instead, we will first install Kafka directly on Linux so that you understand what is happening behind the scenes.
 
-Instead, we will first install Kafka directly on Linux so that you understand what is happening behind the scenes.
-
-You should understand concepts such as:
-
+**You should understand concepts such as:**
 * Kafka brokers
 * Kafka configuration
 * Kafka ports
@@ -27,7 +24,7 @@ After understanding Kafka manually, we will learn how Docker can simplify the sa
 
 By the end of the training, we should be able to run something similar to:
 
-```text
+```python
 Python Producer
         |
         v
