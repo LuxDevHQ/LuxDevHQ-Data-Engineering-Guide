@@ -1,4 +1,4 @@
-# LuxDevHQ Data Engineering Guide
+# LuxDevHQ Data Engineering Course Guide
 
 A beginner-friendly path through Data Engineering concepts, guided practice, and real-world projects from LuxDevHQ. Data Engineering is the work of collecting, cleaning, moving, storing, and serving trustworthy data so that analysts, applications, and businesses can use it.
 
