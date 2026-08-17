@@ -20,9 +20,7 @@ We will **not start by running Kafka inside Docker**, instead, we will first ins
 * Consumer groups
 * Message retention
 
-After understanding Kafka manually, we will learn how Docker can simplify the same setup.
-
-By the end of the training, we should be able to run something similar to:
+After understanding Kafka manually, we will learn how Docker can simplify the same setup. By the end of the training, we should be able to run something similar to:
 
 ```python
 Python Producer
@@ -40,11 +38,9 @@ Python Producer
    PostgreSQL
 ```
 
-We will also use **Kafdrop** to monitor Kafka.
+We will also use **Kafdrop** to monitor Kafka. Later, the infrastructure will run using Docker:
 
-Later, the infrastructure will run using Docker:
-
-```text
+```python
 Docker Compose
 |
 |-- Kafka
