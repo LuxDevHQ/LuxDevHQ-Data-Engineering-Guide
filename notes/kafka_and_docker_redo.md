@@ -2,9 +2,7 @@
 
 ### **Class Overview**
 
-This week, we will learn how modern Data Engineering systems use **Docker**, **Docker Hub**, **Apache Kafka**, and **Kafdrop**.
-
-The class will follow a practical approach.
+This week, we will learn how modern Data Engineering systems use **Docker**, **Docker Hub**, **Apache Kafka**, and **Kafdrop* following a practical approach.
 
 We will **not start by running Kafka inside Docker**.
 
