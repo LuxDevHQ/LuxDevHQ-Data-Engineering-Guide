@@ -115,13 +115,11 @@ Instead of saying:
 
 > It works on my machine.
 
-Docker helps us create an environment that can behave consistently across different machines.
-
-For example, imagine that you create a Python application.
+Docker helps us create an environment that can behave consistently across different machines. For example, imagine that you create a Python application.
 
 Your application may require:
 
-```text
+```python
 Python 3.x
 FastAPI
 Requests
