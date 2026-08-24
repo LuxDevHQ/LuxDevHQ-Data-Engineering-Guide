@@ -355,13 +355,6 @@ Compose starts PostgreSQL, waits for it to be healthy, then runs the ETL with
 
 ---
 
-## Links
-
-* **GitHub:** https://github.com/vicKituku/binance-etl
-* **Docker Hub:** https://hub.docker.com/r/vickituku/binance-etl
-
----
-
 ## Author
 
 Built as the Week 14 project — a reusable, containerized ETL data product that
