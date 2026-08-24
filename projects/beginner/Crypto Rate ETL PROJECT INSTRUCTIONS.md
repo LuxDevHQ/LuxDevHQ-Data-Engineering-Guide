@@ -351,11 +351,6 @@ Compose starts PostgreSQL, waits for it to be healthy, then runs the ETL with
 
 * Docker (for the containerized workflow)
 * Python 3.11+ and `requests` (only if running from source)
-* An internet connection — both data sources are live public APIs
-
----
-
-## Author
 
 Built as the Week 14 project — a reusable, containerized ETL data product that
 another engineer can pull from Docker Hub and run anywhere.
