@@ -349,7 +349,136 @@ Received:
 
 This may indicate that something failed upstream. A good pipeline should normally stop rather than publish incomplete or incorrect data.
 
+### **10. Stage 3: Transform.**
 
+Raw data is rarely immediately useful.
+
+Suppose the raw record looks like:
+```text
+customer_id = " C001 "
+amount      = "1,500"
+date        = "31/08/2026"
+country     = "ke"
+```
+Transformation could produce:
+```text
+customer_id = C001
+amount      = 1500.00
+date        = 2026-08-31
+country     = KE
+```
+Other transformations might include:
+- Removing duplicates
+- Joining customer information
+- Calculating taxes
+- Converting currencies
+- Categorizing products
+- Standardizing timestamps
+- Calculating profit
+- Creating customer segments
+- Handling missing values
+
+### **11. Stage 4: Aggregate.**
+
+Large raw datasets are often summarized.
+
+Imagine a company has:
+```text
+50,000,000 transactions
+```
+
+Management may not need to inspect every individual transaction.
+
+Instead, the pipeline might calculate:
+
+```sql
+SELECT
+    transaction_date,
+    branch,
+    SUM(amount) AS total_sales,
+    COUNT(*) AS transaction_count
+FROM transactions
+GROUP BY
+    transaction_date,
+    branch;
+```
+This transforms millions of detailed records into useful analytical information.
+
+
+### **12. Stage 5: Load.**
+
+The processed data may then be loaded into:
+- A data warehouse
+- A data lake
+- A lakehouse
+- An operational database
+- An analytics database
+- A feature store
+- A reporting database
+
+For example:
+```
+Oracle
+   │
+   ▼
+Airflow
+   │
+   ▼
+Spark
+   │
+   ▼
+Amazon S3
+   │
+   ▼
+Snowflake
+   │
+   ▼
+Power BI
+```
+
+### **13. Stage 6: Data Quality Checks.**
+
+After loading, the pipeline may perform additional quality checks.
+
+**For example:**
+
+- No duplicate transaction IDs
+- No negative quantities
+- Required columns are populated
+- Row count is greater than zero
+- Warehouse totals match source totals
+- Timestamps are valid
+- Foreign-key relationships are valid
+
+For example:
+
+```text
+Source Total    = KSh 89,500,000
+Warehouse Total = KSh 64,200,000
+```
+That difference may indicate a serious pipeline problem.
+
+### **14. Stage 7: Publish the Data.**
+
+Finally, successfully processed data can be made available to downstream users and systems.
+```
+Pipeline Successful
+        ↓
+Warehouse Tables Updated
+        ↓
+Power BI Refresh
+        ↓
+Management Dashboard
+```
+
+If the process fails:
+```
+Pipeline Failed
+        ↓
+Send Alert
+        ↓
+Data Engineer Investigates
+```
 
 ### **15. Where Batch Processing Is Used in Modern Data Engineering**
 
