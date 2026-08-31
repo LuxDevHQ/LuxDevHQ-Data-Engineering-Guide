@@ -6,6 +6,8 @@ At its simplest:
 
 > **Batch processing means collecting a group of data and processing that group together as a unit, rather than processing every individual record immediately when it arrives.**
 
+> Batch processing collects data over a defined period or boundary, processes that data together, validates and transforms it, stores the results, and makes them available for downstream use.
+
 Think of the word **batch** literally as a group.
 
 Suppose a company generates 2 million sales transactions during the day. Instead of recalculating the company's analytics dashboard after every single transaction, the data engineering team might collect those transactions and process them every hour, every night, or at another defined interval.
