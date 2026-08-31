@@ -296,15 +296,110 @@ REPORT / SERVE
 
 These stages often form an ETL or ELT pipeline.
 
+### **8. Stage 1: Extract.**
+
+The first step is retrieving data from one or more sources.
+
+**Sources might include:**
+
+- PostgreSQL
+- Oracle
+- MySQL
+- SAP
+- Salesforce
+- REST APIs
+- CSV files
+- Excel files
+- JSON files
+- Amazon S3
+- Google Cloud Storage
+- Azure Blob Storage
+
+**For example:**
+```sql
+SELECT *
+FROM transactions
+WHERE transaction_date = '2026-08-30';
+```
+
+The result becomes the batch that needs to be processed.
+
+
+### **9. Stage 2: Validate.**
+
+Before transforming the data, a production pipeline should verify that the expected data has actually arrived.
+
+**Questions might include:**
+- Did we receive the expected file?
+- Is the file empty?
+- Are all required columns available?
+- Did the row count suddenly decrease?
+- Are timestamps valid?
+- Are transaction IDs missing?
+- Are there duplicate records?
+
+**For example:**
+```text
+Expected:
+1,500,000 transactions
+
+Received:
+23,000 transactions
+```
+
+This may indicate that something failed upstream. A good pipeline should normally stop rather than publish incomplete or incorrect data.
 
 
 
+### **15. Where Batch Processing Is Used in Modern Data Engineering**
 
+Batch processing is used across almost every major industry.
 
+**Some of the most common areas include:**
+- Data warehouses
+- Business intelligence
+- Banking and financial reconciliation
+- Payroll
+- Billing
+- Machine learning
+- Log processing
+- Data lakes
+- Regulatory reporting
+- Historical data processing
+- Reporting systems
+- Database migration
+- Backup processing
 
+### **16. Data Warehouses.**
 
+One of the largest uses of batch processing is loading analytical data warehouses.
+```text
+CRM ─────────┐
+ERP ─────────┤
+Website ─────┤
+Payments ────┼── ETL / ELT ──► Data Warehouse
+Mobile App ──┤
+Files ───────┤
+Third-party ─┘
+```
+**The data warehouse might be:**
 
+- Snowflake
+- BigQuery
+- Amazon Redshift
+- Databricks
+- PostgreSQL
+- Oracle
+- SQL Server
 
+**Batch pipelines may update tables such as:**
+```text
+fact_sales
+fact_transactions
+dim_customer
+dim_product
+dim_branch
+```
 
 
 
