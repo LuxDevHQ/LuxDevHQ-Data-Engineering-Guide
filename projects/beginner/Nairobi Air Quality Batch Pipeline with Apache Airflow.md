@@ -3,15 +3,11 @@
 
 #### **Project Scenario**
 
-You have joined a data engineering team responsible for building an environmental data platform for Nairobi.
-
-The analytics team wants to monitor air-quality conditions across the city using data published by **OpenAQ**.
+You have joined a data engineering team responsible for building an environmental data platform for Nairobi. The analytics team wants to monitor air-quality conditions across the city using data published by **OpenAQ**.
 
 At the moment, analysts manually retrieve data from the OpenAQ API whenever they need to perform analysis. This approach is unreliable, repetitive, and difficult to scale.
 
-Your task is to design and implement an automated **batch data pipeline using Apache Airflow**.
-
-The pipeline should periodically retrieve air-quality measurements from monitoring stations around Nairobi, validate the data, and load it into PostgreSQL for downstream analytics.
+Your task is to design and implement an automated **batch data pipeline using Apache Airflow**. The pipeline should periodically retrieve air-quality measurements from monitoring stations around Nairobi, validate the data, and load it into PostgreSQL/Cassandra database for downstream analytics.
 
 ---
 
