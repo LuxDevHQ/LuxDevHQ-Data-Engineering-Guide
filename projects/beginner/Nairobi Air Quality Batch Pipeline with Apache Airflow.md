@@ -34,9 +34,7 @@ Validate Data
 PostgreSQL
 ```
 
-The pipeline must be capable of running repeatedly without creating duplicate data.
-
-Airflow should be responsible for **orchestration**. Airflow is not the database, transformation engine, or API. Its job is to coordinate when and how the different pieces of the pipeline execute.
+The pipeline must be capable of running repeatedly without creating duplicate data. Airflow should be responsible for **orchestration**. Airflow is not the database, transformation engine, or API. Its job is to coordinate when and how the different pieces of the pipeline execute.
 
 ---
 
